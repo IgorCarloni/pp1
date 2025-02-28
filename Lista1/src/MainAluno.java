@@ -8,5 +8,6 @@ public class MainAluno {
 
         Aluno obj2 = new Aluno(123, 19, "Dominic", 5.4f, 8.9f);
         System.out.println("Nome: " + obj2.nome + " Média: " + obj2.notaFinal());
+        obj2.dadosAluno();
     }
 }
